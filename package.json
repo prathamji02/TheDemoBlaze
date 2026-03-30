@@ -1,0 +1,14 @@
+{
+  "name": "demoblaze-automation",
+  "version": "1.0.0",
+  "description": "Professional BDD Automation for Demoblaze",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/*.feature --require step_definitions/*.js --require support/*.js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "chai": "^4.3.7",
+    "selenium-webdriver": "^4.15.0"
+  }
+}

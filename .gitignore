@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Test Artifacts
+failure_*.png
+*.png
+screenshot_*.png
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# OS Files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.log
+
+# Browser Drivers (if downloaded locally)
+chromedriver
+geckodriver
+msedgedriver
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Test Reports (optional - if using report generators)
+report/
+reports/
+coverage/
+
+# Build Output
+dist/
+build/
+
+# Git Files
+.git/
+.gitkeep
